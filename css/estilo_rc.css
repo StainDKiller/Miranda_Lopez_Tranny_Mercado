@@ -1,0 +1,134 @@
+body{
+	background-size: 100%;
+	background-color: #cb7579;
+	font-family: Century Gothic;
+}
+header{
+	background-color: #684627;
+	color: white;
+	text-align: center;
+	padding: 5px;
+	font-size: 40px;
+	width: 100%;
+}
+nav{
+	line-height: 30px;
+	background-color: #dfc49b;
+	color: white;
+	height: 600px;
+	width: 200px;
+	float: left;
+	padding: 5px;
+	font-size: 22px;
+	text-decoration: none;
+	margin: 20px;
+	width: 20%;
+}
+nav a:hover{
+	text-decoration: underline;
+	cursor: pointer;
+}
+section{
+	width: 750px;
+	float: left;
+	padding: 10px;
+	color: black;
+	text-align: justify;
+	font-size: 20px;
+	padding: 0px 150px 0px 150px;
+}
+footer{
+	background-color: #9b7d61;
+	color: black;
+	clear: both;
+	text-align: center;
+	padding: 5px;
+	width: 100%;
+}
+img{
+	display: block;
+	margin: auto;
+	clear: right;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+main .fondo{
+	text-align: center;
+	width: 40%;
+}
+main .fondo img{
+	max-width: 40%;
+	height: auto;
+	cursor: pointer;
+	border-radius: 10px;
+	transition: transform 0.3s ease;
+}
+main .fondo img:hover{
+	transform: scale(1.05);
+}
+table{
+	margin-top: 20%;
+    width: 100%;
+}
+main .fondo2{
+	margin-top: -6%;
+    text-align: center;
+    width: 50%;
+    
+    cursor: pointer;
+}
+ table img{
+    width: 150px; /* Define el ancho fijo */
+    height: 150px; /* Define la altura fija */
+    object-fit: cover; /* Mantiene las proporciones de la imagen, pero recorta si es necesario */
+    border-radius: 10px; /* Mantén el borde redondeado */
+    transition: transform 0.3s ease;
+}
+main .fotos img{
+	width: 150px; /* Define el ancho fijo */
+    height: 150px; /* Define la altura fija */
+    object-fit: cover; /* Mantiene las proporciones de la imagen, pero recorta si es necesario */
+    border-radius: 10px; /* Mantén el borde redondeado */
+    transition: transform 0.3s ease;
+	}
+
+main .fondo2 img:hover{
+	transform: scale(1.05);
+}
+@media screen and (max-width:800px){
+	nav {
+    width: 60%;
+    }
+    section {
+    float: none;
+    padding: 0px 150px 0px 272px;
+    }
+    footer {
+    margin-top: 50%;
+    width: 150%;
+    }
+    header{
+    	width: 150%;
+    }
+     table img{
+	    width: 111px; /* Define el ancho fijo */
+	    height: 94px; /* Define la altura fija */
+	    object-fit: cover; /* Mantiene las proporciones de la imagen, pero recorta si es necesario */
+	    border-radius: 10px; /* Mantén el borde redondeado */
+	}
+	main .tabla_cm{
+		  margin-left: -9%;
+		  margin-top: 35%;
+	}
+	iframe{
+		margin-left: -57%;
+        width: auto;
+	}
+	main .fotos img{
+	max-width: none;
+	margin-left: -85%;
+	}
+
+}

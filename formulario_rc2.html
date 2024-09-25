@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/estilo_rc.css">
+	<title>Practica Recetario</title>
+</head>
+<body>
+	<header>
+		<h1>Chopper cocina</h1>
+	</header>
+
+	<nav>
+		<ul>
+			<li><a href="index.html">Inicio</a><br></li>
+			<li><a href="formulario_rc2.html">Formulario</a><br></li>
+			<li><a href="recetas_rc.html">Mis recetas</a><br></li>
+			<li><a href="desarrolladores_rc.html">Desarrolladores</a><br></li>
+		</ul>
+	</nav>
+
+	<main>
+		<section class="fondo">
+			<h1 align="center">Registro de Platillo</h1>
+			<img height="200" width="400" src="img/chopper_cocina.jpg">
+			<h2>
+				<table align="center">
+				<td width="20%">
+					<div class="cuerpo" align="center">
+						<form action="mailto: adrianmarcial683@gmail.com" method="POST">
+							<p>
+								<label for="platillo">Platillo: </label>
+								<input type="text" name="platillo" maxlength="32" placeholder="Platillo"><hr width="35%">
+							</p>
+							<p>
+								<label for="nombre">Nombre: </label>
+								<input type="text" name="nombre" maxlength="32" placeholder="Nombre"><hr width="25%">
+							</p>
+							<p>
+								<label for="descripcion">Descripción: </label>
+								<input type="text" name="descripcion" maxlength="50" placeholder="Descripción"><hr width="30%">
+							</p>
+							<p>
+								<label for="precio">Precio: </label>
+								<input type="number" name="precio" maxlength="30" placeholder="Precio"><hr width="25%">
+							</p>
+							<p>
+								<label for="Categoria">Categoria: </label><br>
+								<input type="radio" name="catg" id="crash" value="crash">Crash
+								<input type="radio" name="catg" id="ride" value="ride" >Ride
+								<input type="radio" name="catg" id="splash" value="splash">Splash
+								<input type="radio" name="catg" id="hi-hat" value="hi-hat">Hi-Hat
+								<input type="radio" name="catg" id="bell" value="bell">Bell<hrw width="30">
+							</p>
+							<p>
+								<label for="ingredientes">Ingredientes: </label>
+								<input type="text" name="ingredientes" maxlength="300" placeholder="Ingredientes"><hr width="25%">
+							</p>
+							<p>
+								<label for="calorias">Calorias: </label>
+								<input type="text" name="calorias" maxlength="50" placeholder="calorias"><hr width="25%">
+							</p>
+						</h2>
+						<p align="center">
+							<input type="submit" name="guardar" id="boton1" value="Enviar Datos">
+							<input type="reset" name="borrar" id="boton2" value="Borrar Datos">
+						</p>
+
+					</div>
+				</td></font>
+				<!--td width="20%">
+					<div align="center" class="div_img">
+						<p>Piramidal</p>
+						<a href="piramidal.html"><img src="img/piramidal.jpg"></a><br>
+						<p>Barrancal</p>
+						<a href="barrancal.html"><img src="img/barrancal_portada.jpg"></a><br.>
+						<p>Pueblerino</p>
+						<a href="pueblerino.html"><img src="img/pueblerino.webp"></a><br>
+					</div>
+				</td>-->			</table>
+			<hr>
+		</form>
+		</section>
+	</main>
+	<footer>
+		<p>Que es HTML - Todos los derechos reservados</p>
+		<p>Miranda Lopez Adrian Marcial</p>
+		<p>Tranny Mercado Danna Valeria</p>
+		<p>CBTIS 206 - PROGRAMACION 5°A</p>
+	</footer>
+</body>
+</html>
